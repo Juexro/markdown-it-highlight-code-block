@@ -17,8 +17,8 @@ let fileContent = fs.readFileSync('markdown.md', 'utf8')
 const style = fs.readFileSync('node_modules/highlight.js/styles/github.css')
 
 const MarkdownIt = require('markdown-it')
-const codeBlockPlugin = require('markdown-it-highlight-code-block')
-const md = new MarkdownIt().use(codeBlockPlugin)
+const CodeBlockPlugin = require('@juexro/markdown-it-highlight-code-block')
+const md = new MarkdownIt().use(CodeBlockPlugin)
 
 fs.writeFileSync('markdown.html', `<style>${style}</style>` + md.render(fileContent))
 ```
