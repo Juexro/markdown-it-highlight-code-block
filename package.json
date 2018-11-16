@@ -1,7 +1,7 @@
 {
-  "name": "markdown-it-highlight-code-block",
+  "name": "@juexro/markdown-it-highlight-code-block",
   "version": "1.0.0",
-  "description": "",
+  "description": "rewrite default_rules.code_block for markdown-it in nodejs.",
   "main": "index.js",
   "files": [
     "index.js",

@@ -1,6 +1,6 @@
 # markdown-it-highlight-code-block
 
-rewrite default_rules.code_block for [markdown-it](https://github.com/markdown-it/markdown-it).
+rewrite default_rules.code_block for [markdown-it](https://github.com/markdown-it/markdown-it) in nodejs.
 
 
 ## install
